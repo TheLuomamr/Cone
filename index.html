@@ -19,14 +19,14 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="/Images/CC.png" alt=""></a>
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <a class="navbar-brand pl-3" href="#navbarNav"><img src="/Images/CC.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav pl-5">
+            <ul class="navbar-nav ml-auto pl-5">
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About Us</a>
                 </li>
@@ -36,16 +36,20 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
-            </ul>
-            <ul class="navbar-nav ml-auto pr-5">
-                <li class="nav-item">
-                    <a class="nav-link" href="#reviews">Reviews</a>
-                </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Coupons</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link pr-0 mr-0"
+                        href="https://www.facebook.com/Country-Cones-Canton-Ohio-306998179686/"><i
+                            class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item pl-0">
+                    <a href="https://www.instagram.com/countrycones/" class="nav-link pl-0 ml-0"><i
+                            class="fab fa-instagram"></i></a>
                 </li>
             </ul>
         </div>
@@ -91,14 +95,18 @@
             <div class="row">
                 <div class="col-sm-6 info">
                     <h1>Country Cones</h1>
-                    <h4><u>Canton, Ohio</u></h4>
+                    <a href="https://goo.gl/maps/stDjoYFXHLvuiVvV8">
+                        <u>Canton, Ohio</u> <i class="fas fa-map-marker-alt ml-3"></i>
+                    </a>
+
+
                     <p class="infoText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptatum
                         molestiae itaque
                         eveniet numquam porro corporis quod voluptas et. Corrupti reprehenderit soluta magnam similique
                         ab dicta provident, molestiae fugit atque. Lorem ipsum dolor sit amet consectetur adipisicing
                         elit. Aliquam natus, odit ratione voluptatem, quo iste iusto non est distinctio quisquam porro
                         officia architecto earum ullam fugit, velit nobis nisi minima!</p>
-                    <a href="https://goo.gl/maps/stDjoYFXHLvuiVvV8"><i class="fas fa-map-marker-alt"></i></a>
+                    <hr>
                 </div>
                 <div class="col-sm-6">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -134,16 +142,14 @@
         </div>
     </section>
     <br>
-    <hr>
-
-    <section class="d-flex flex-wrap justify-content-center" id="menus">
-        <h1 class="slide-in-left">Soft Serve!</h1>
-        <h1 class="slide-in-right">Milkshakes!</h1>
-        <h1 class="slide-in-left2">Sandwiches!</h1>
-        <h1 class="slide-in-right2">Coney Dawgs!</h1>
-        <div class="container menu overflow-auto text-center mt-5 mb-5">
+    <section class="d-flex flex-wrap justify-content-center mt-5" id="menus">
+        <h1>Soft Serve!</h1>
+        <h1>Milkshakes!</h1>
+        <h1>Sandwiches!</h1>
+        <h1>Coney Dawgs!</h1>
+        <div class="container menu overflow-auto text-center">
             <div class="row">
-                <div class="col overflow-auto menuImages pt-5">
+                <div class="col-sm-12 overflow-auto menuImages">
                     <img src="./Images/menu1.jpg" alt="">
                     <img src="./Images/menu2.jpg" alt="">
                 </div>
@@ -175,31 +181,61 @@
             </div>
         </div>
     </section>
-    <section id="reviews">
-        <div class="container-fluid reviews mt-5">
-            <div class="row">
-                <div class="col-sm-5 items text-center m-0 pl-2">
-                    <!-- <h1 class="slide-in-left">Soft Serve!</h1>
-                    <h1 class="slide-in-right">Milkshakes!</h1>
-                    <h1 class="slide-in-left2">Sandwiches!</h1>
-                    <h1 class="slide-in-right2">Coney Dawgs!</h1> -->
+
+    <footer id="footer">
+        <div class="container-fluid footer border-top mt-5 mb-0 pb-0">
+            <div class="row mt-3">
+                <div class="col">
+                    <p class="footerText pl-4">Country Cones has proudly served Canton, OH for years while valuing their
+                        customers, employees, neighbors, and family at a high level. Come visit us each year upon
+                        opening and have a taste of
+                        excellence from a family-owned tradition.
+                    </p>
                 </div>
-                <div class="col-sm-7">
-                    <iframe
-                        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fms.lclark71%2Fposts%2F4167652496593522&width=500"
-                        width="500" height="161" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                        allowTransparency="true" allow="encrypted-media"></iframe>
+                <div class="col text-center">
+                    <a href="https://goo.gl/maps/stDjoYFXHLvuiVvV8"><img class="footerImage pb-3" src="./Images/CC.png"
+                            alt=""></a>
+                    <p>(330) 493-7227
+                        <br>4219 Middlebranch Ave NE<br>Canton, OH 44705</p>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Mon</th>
+                                <td>11:00am - 9:30pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tues</th>
+                                <td>11:00am - 9:30pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Wed</th>
+                                <td>11:00am - 9:30pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thurs</th>
+                                <td>11:00am - 9:30pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fri</th>
+                                <td>11:00am - 9:30pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sat</th>
+                                <td>11:00am - 9:30pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sun</th>
+                                <td>11:00am - 9:30pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-
         </div>
-    </section>
-
-
-
-
-
-
+        <p class="copyright"> &copy 2020 Country Cones | Designed by Mark Luoma</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
