@@ -87,7 +87,7 @@ h5 {
 }
 /*------jumbo------------*/
 .jumbotron {
-  background-image: url(/Images/download.jpg);
+  background-image: url("../Images/icecream.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
