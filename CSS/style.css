@@ -185,6 +185,9 @@ hr {
   background-color: rgba(255, 255, 255, 0.788);
   padding: 25px 0 50px 0;
 }
+.menuLink {
+  visibility: hidden;
+}
 /*=======Gallery========*/
 .card {
   border: none;
@@ -235,12 +238,31 @@ footer {
   .card-columns {
     column-count: 2;
   }
+  .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    padding-right: 40px;
+  }
+  footer {
+    margin-bottom: 5px;
+  }
+  .fade-in,
+  .fade-in-two {
+    font-size: 42px;
+    color: #fff;
+    font-family: var(--main3-font-family);
+  }
   td,
   th {
-    font-size: 10px;
+    font-size: 8px;
   }
-  footer p {
-    font-size: 10px;
+  footer p,
+  .footerText {
+    font-size: 8px;
+  }
+  .footerText {
+    padding: 0px;
+    margin: 0px;
   }
   .col-sm-4 {
     padding: 0px 20px 0px 20px;
@@ -249,7 +271,25 @@ footer {
     height: 75px;
   }
   .copyright {
-    left: 50%;
+    left: 30%;
+    margin: 0px;
+  }
+  .menu {
+    visibility: hidden;
+  }
+  #menus {
+    height: 70%;
+  }
+  .menuLink {
+    visibility: visible;
+    padding-left: 7%;
+  }
+  .menuLink a {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .fa-file-pdf {
+    font-size: 58px;
   }
 }
 
