@@ -20,13 +20,13 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light p-0">
-        <a class="navbar-brand pl-3" href="#navbarNav"><img src="./Images/CC.png" alt=""></a>
+        <a class="navbar-brand pl-3" href="#navbarNav"><img src="./Images/cone.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto pl-5">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About Us</a>
                 </li>
@@ -36,21 +36,22 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">Coupons</a>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#footer">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link pr-0 mr-0"
-                        href="https://www.facebook.com/Country-Cones-Canton-Ohio-306998179686/"><i
-                            class="fab fa-facebook"></i></a>
-                </li>
-                <li class="nav-item pl-0">
-                    <a href="https://www.instagram.com/countrycones/" class="nav-link pl-0 ml-0"><i
-                            class="fab fa-instagram"></i></a>
-                </li>
+                <ul class="navbar-nav ml-5 pl-5">
+                    <li class="nav-item">
+                        <a class="nav-link pr-0 mr-0"
+                            href="https://www.facebook.com/Country-Cones-Canton-Ohio-306998179686/"><i
+                                class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item pl-0">
+                        <a href="https://www.instagram.com/countrycones/" class="nav-link pl-0 ml-0"><i
+                                class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+
+
             </ul>
         </div>
     </nav>
@@ -142,11 +143,19 @@
         </div>
     </section>
     <br>
-    <section class="d-flex flex-wrap justify-content-center mt-5" id="menus">
-        <h1>Soft Serve!</h1>
-        <h1>Milkshakes!</h1>
-        <h1>Sandwiches!</h1>
-        <h1>Coney Dawgs!</h1>
+    <section id="menus">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-right menuHeaderTop">
+                    <h1>Soft Serve!</h1>
+                    <h1>Sandwiches!</h1>
+                </div>
+                <div class="col text-left pr-0 ml-0 menuHeaderBtm ">
+                    <h1>Milkshakes!</h1>
+                    <h1>Coney Dawgs!</h1>
+                </div>
+            </div>
+        </div>
         <div class="menuLink">
             <a
                 href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A48f27c87-4eb6-4158-a59c-aa92620efdcb"><i
@@ -201,8 +210,8 @@
                     </p>
                 </div>
                 <div class="col text-center">
-                    <a href="https://goo.gl/maps/stDjoYFXHLvuiVvV8"><img class="footerImage pb-3" src="./Images/CC.png"
-                            alt=""></a>
+                    <a href="https://goo.gl/maps/stDjoYFXHLvuiVvV8"><img class="footerImage pb-3"
+                            src="./Images/cone.png" alt=""></a>
                     <p>(330) 493-7227
                         <br>4219 Middlebranch Ave NE<br>Canton, OH 44705</p>
                 </div>
