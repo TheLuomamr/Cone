@@ -296,11 +296,11 @@ footer {
   }
   #menus h1 {
     text-align: center;
+    font-size: 5vh;
   }
   .menuLink {
     visibility: visible;
     padding-left: 7%;
-    float: middle;
   }
   .menuLink a {
     font-size: 30px;
@@ -310,7 +310,7 @@ footer {
     font-size: 58px;
   }
   .jumbotron {
-    height: 60%;
+    height: 55%;
   }
 }
 
