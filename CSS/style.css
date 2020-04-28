@@ -149,6 +149,7 @@ u {
   border: rgb(153, 150, 150) solid 1px;
   border-radius: 10px;
   background-color: white;
+  width: 95%;
 }
 hr {
   margin-top: 30px;
