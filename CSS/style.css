@@ -142,14 +142,15 @@ u {
 }
 .carousel {
   box-shadow: 0 10px 20px 0 rgb(64, 79, 82), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
-  padding-bottom: 75px;
+  padding-bottom: 125px;
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 10px;
   border: rgb(153, 150, 150) solid 1px;
   border-radius: 10px;
   background-color: white;
-  width: 95%;
+  width: 90%;
+  height: 90%;
 }
 hr {
   margin-top: 30px;
@@ -300,7 +301,7 @@ footer {
   }
   .menuLink {
     visibility: visible;
-    padding-left: 7%;
+    padding-left: 25%;
   }
   .menuLink a {
     font-size: 30px;
@@ -311,6 +312,9 @@ footer {
   }
   .jumbotron {
     height: 55%;
+  }
+  .d-block {
+    height: 60%;
   }
 }
 
